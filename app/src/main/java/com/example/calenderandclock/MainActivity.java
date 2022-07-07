@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void viewCalendarActivity(){
+        //to calendaractivity page
         Intent intent = new Intent(this, CalendarActivity.class);
         startActivity(intent);
     }
